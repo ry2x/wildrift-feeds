@@ -1,13 +1,8 @@
-[funfacts]
-title = "Wikipedia — did you know?"
-url = "https://en.wikipedia.org/wiki/Main_Page"
-entrySelector = "#mp-dyk > ul li"
-titleSelector = "b"
-linkSelector = "b a"
-
-[wikivoyage]
-title = "Wikivoyage recommendations"
-url = "https://en.wikivoyage.org/wiki/Main_Page"
-entrySelector = ".jcarousel-wrapper .jcarousel-item"
-titleSelector = "h2"
-linkSelector = "h2 a"
+[wildrift-news-ja-jp]
+title = "Wild Rift News (en-us)"
+url = "https://wildrift.leagueoflegends.com/ja-jp/news/"
+entrySelector = "a[data-testid='articlefeaturedcard-component']"
+titleSelector = "div[data-testid='card-title']"
+linkSelector = "*"
+dateSelector = "div[data-testid='card-date'] > time"
+waitUntil = "load"
