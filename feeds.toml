@@ -1,5 +1,5 @@
 [wildrift-news-ja-jp]
-title = "Wild Rift News (en-us)"
+title = "Wild Rift News"
 url = "https://wildrift.leagueoflegends.com/ja-jp/news/"
 entrySelector = "a[data-testid='articlefeaturedcard-component']"
 titleSelector = "div[data-testid='card-title']"
