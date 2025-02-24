@@ -1,8 +1,0 @@
-[wildrift-news-ja-jp]
-title = "Wild Rift News (en-us)"
-url = "https://wildrift.leagueoflegends.com/ja-jp/news/"
-entrySelector = "a[data-testid='articlefeaturedcard-component']"
-titleSelector = "div[data-testid='card-title']"
-linkSelector = "*"
-dateSelector = "div[data-testid='card-date'] > time"
-waitUntil = "load"
